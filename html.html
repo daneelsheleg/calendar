@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Calendar</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="block">
+			<div class="time-block">
+	<span id = "time" class="time">МЕСЯЦЫ</span>
+</div>
+	<div class="arrows"> 
+	  	<span id="back" class="back"> назад </span>
+	  	<span id="forward" class="forward"> вперед </span>
+	</div>
+	<table id="calendar">
+
+  <thead>
+
+    <tr >
+	    	<td class="day">Пн</td>
+	    	<td class="day">Вт</td>
+	    	<td class="day">Ср</td>
+	    	<td class="day">Чт</td>
+	    	<td class="day">Пт</td>
+	    	<td class="day">Сб</td>
+	    	<td class="day">Вс</td>
+    </tr>
+
+  	<tbody class="tbody"></tbody>
+</thead>
+</table>
+</div>
+</div>
+<style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.time{
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #CAD7E5;
+}
+.time-block{
+	margin-bottom: 10px;
+}
+.container{
+	margin:auto;
+	text-align: center;
+	margin-top: 15%;
+	width: 300px;
+	height: 320px;
+	background-color: red;
+}
+.arrows{
+	margin-bottom: 5px;
+}
+#calendar{
+	margin:auto;
+}
+.back, .forward{
+	cursor: pointer;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #CAD7E5;
+	margin:20px;
+	padding: 5px;
+}
+.back:hover, .forward:hover{
+	background: blue;
+
+}
+.day{
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #CAD7E5
+}
+.block{
+    transform: translateY(+20%);
+}
+#calendar tbody td.allDays {
+  
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#calendar tbody td.allDays:hover {
+	background: blue;
+	cursor: pointer;
+}
+#calendar tbody td.today {
+  background: black;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+</style>
+	<script src="js.js"></script>
+</body>
+</html>

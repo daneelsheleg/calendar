@@ -1,0 +1,62 @@
+
+
+.time{
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #CAD7E5;
+}
+.time-block{
+	margin-bottom: 10px;
+}
+.container{
+	margin:auto;
+	text-align: center;
+	margin-top: 15%;
+	width: 300px;
+	height: 320px;
+	background-color: red;
+}
+.arrows{
+	margin-bottom: 5px;
+}
+#calendar{
+	margin:auto;
+}
+.back, .forward{
+	cursor: pointer;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #CAD7E5;
+	margin:20px;
+	padding: 5px;
+}
+.back:hover, .forward:hover{
+	background: blue;
+
+}
+.day{
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #CAD7E5
+}
+
+#calendar tbody td.allDays {
+  
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#calendar tbody td.allDays:hover {
+	background: blue;
+	cursor: pointer;
+}
+#calendar tbody td.today {
+  background: black;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
