@@ -4,7 +4,7 @@ var backElem = document.getElementById("back");
 var forwardElem = document.getElementById("forward");
 
 
-function Calendar(id, year, month) {
+function Calendar(day, year, month) {
 
 var  Dlast = new Date(year,month+1,0).getDate();
 var  D = new Date(year,month,Dlast);
